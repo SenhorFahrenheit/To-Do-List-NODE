@@ -1,0 +1,5 @@
+node
+express
+express-session (gerenciar sessoes)
+bcrypt (hash de senha)
+
