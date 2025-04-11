@@ -2,24 +2,24 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+  
 body {
     background-color: #0F172A;
     color: #E2E8F0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100svh;
     height: 100dvh;
     margin: 0;
 }
-
+  
 h1 {
     color: #FCD34D;
     margin-bottom: 30px;
+    text-align: center;
 }
-
+  
 form {
     background-color: #1E293B;
     padding: 30px;
@@ -28,12 +28,12 @@ form {
     max-width: 400px;
     width: 90%;
 }
-
+  
 label {
     display: block;
     margin-bottom: 5px;
 }
-
+  
 input {
     width: 100%;
     padding: 10px;
@@ -43,7 +43,7 @@ input {
     background-color: #334155;
     color: #E2E8F0;
 }
-
+  
 button {
     width: 100%;
     padding: 12px;
@@ -56,7 +56,16 @@ button {
     cursor: pointer;
     transition: 0.3s ease;
 }
-
+  
 button:hover {
     background-color: #3B82F6;
+}
+  
+p, a {
+    text-align: center;
+    color: #60A5FA;
+}
+  
+a:hover {
+    text-decoration: underline;
 }

@@ -1,65 +1,71 @@
-/* Estilos básicos para a tela de cadastro */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .container {
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    border-radius: 8px;
-  }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  label {
-    font-size: 14px;
-    margin-bottom: 8px;
-    display: block;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  p {
-    text-align: center;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #0F172A;
+  color: #E2E8F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  height: 100dvh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1E293B;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px #A78BFA33;
+  width: 90%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #FCD34D;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #334155;
+  color: #E2E8F0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #60A5FA;
+  color: #0F172A;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #3B82F6;
+}
+
+p, a {
+  text-align: center;
+  color: #60A5FA;
+}
+
+a:hover {
+  text-decoration: underline;
+}
