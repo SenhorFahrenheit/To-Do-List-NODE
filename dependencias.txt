@@ -3,3 +3,6 @@ express
 express-session (gerenciar sessoes)
 bcrypt (hash de senha)
 
+instalar dependencias com o comando "npm install dependencia" na pasta do projeto
+
+exemplo: "npm install express" ou "npm install express express-session" para mais de uma dependencia de uma vez
